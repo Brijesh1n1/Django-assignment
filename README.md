@@ -20,7 +20,7 @@ A Vendor Management System built using Django and Django REST Framework. This sy
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/vendor_management.git
+    git clone https://github.com/Brijesh1n1/Django-assignment.git
     cd vendor_management
     ```
 
