@@ -1,4 +1,4 @@
-# Django-assignment# Vendor Management System
+# Vendor Management System
 
 A Vendor Management System built using Django and Django REST Framework. This system handles vendor profiles, tracks purchase orders, and calculates vendor performance metrics.
 
@@ -24,12 +24,18 @@ A Vendor Management System built using Django and Django REST Framework. This sy
     cd vendor_management
     ```
 
-2. Install dependencies:
+2. Create VirtualEnv
+    ```bash
+    cd vendor_management
+    virtualenv -p python3 venv
+    ```
+
+3. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Apply migrations:
+4. Apply migrations:
     ```bash
     python manage.py makemigrations
     python manage.py migrate
@@ -47,12 +53,5 @@ A Vendor Management System built using Django and Django REST Framework. This sy
 
 6. Access the application at `http://127.0.0.1:8000/`.
 
-## Additional Information
-
-- **Efficient Calculation:** The logic for calculating metrics is optimized to handle large datasets without significant performance issues.
-- **Data Integrity:** Includes checks to handle scenarios like missing data points or division by zero in calculations.
-- **Real-time Updates:** Uses Django signals to trigger metric updates in real-time when related PO data is modified.
-
-## License
-
-This project is licensed under the MIT License.
+## API Documentation
+https://documenter.getpostman.com/view/24866593/2sA3QqgDER
